@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+/********************************************** source citation**********************************
+* image source: https://unsplash.com/photos/jLwVAUtLOAQ 
+* table style concept: https://www.w3schools.com/css/css_table.asp
+* Navigation Bar concept: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+****************************************************************************************************/
+/* default style */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* Navigation style*/
+.containerNav ul{
+  list-style: none;
+  background: black;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+.containerNav li{
+  display: inline-block;
+}
+.containerNav a{
+  display: block;
+  padding: 25px 20px;
+  color:white;
+  font-weight:600;
+  width: 100px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.containerNav a:hover{
+  background: grey;
+}
+/*Hero section background image Style*/
+#home{
+  background-image: linear-gradient(to right, rgba(13, 21, 24, 0.90), rgba(13 21, 24, 0.85), rgba(13, 21, 24, 0.80), rgba(13, 21, 24, 0.75)),url(../image/cover.jpg); 
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+.container-hero{
+  max-width:1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*h1 heading style*/
+h1 {
+  text-align: center;
+  color: white;
+  letter-spacing:.2rem;
+  text-shadow: 1px 1px black;
+  padding: 221px;
+}
+/*About Me section style*/
+#aboutme{
+  display:flex;
+}
+.about-flex{
+  display:flex;
+  column-gap:107px;
+  padding:130px;
+}
+
+/*h2 heading style*/
+h2{
+  text-align:center;
+  text-transform:uppercase;
+}
+
+/*Container style*/
+.container {
+  max-width:1170px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1.5px solid;
+  box-shadow: 6px 12px;
+  padding: 12px;
+ }
+.d-flex { 
+  display: flex; 
+}
+/*All section default style*/
+section {
+  padding: 70px 0; 
+}
+.bg-color {
+  background-color: #ed7373; 
+}
+/*Table style*/
+#tableDesign {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 6px 12px;
+
+  height:100%;
+}
+#tableDesign td, #tableDesign th {
+  padding: 10px;
+  border: 1.7px solid black;
+}
+#tableDesign th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.align-center{
+  text-align: center;
+}
+/*Skill Percentage indicator style*/
+.skillIndicator{
+  background-color: lightgrey; 
+  border-radius:5px;
+}
+.skillColor {
+  background-color: green; 
+  border-radius:5px;
+  height: 20px; 
+}
+/*Social icon style*/
+.socialList{
+  margin: 10px;
+}
