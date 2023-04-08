@@ -1,6 +1,6 @@
 # A Basic Vanilla PHP CMS
 
-This repository is a simple PHP CMS meant to be used as a starting point. The code consists of a simple login process, a dashboard, a place to view/add/edit/delete users, and a place to view/add/edit/delete projects. In an effort to keep the PHP code focused and basic, only the absolute basics have been included. The whole CMS only consists of HTML, PHP, and SQL.
+This repository is a simple PHP CMS meant to be used as a starting point. The code consists of a simple login process, a dashboard, a place to view/add/edit/delete users, and a place to view/add/edit/delete projects. In an effort to keep the PHP code focused and basic, only the absolute basics have been included. The whole CMS only consists of HTML, vanilla PHP, and SQL.
 
 A few notes regarding the CMS:
 
@@ -9,6 +9,7 @@ A few notes regarding the CMS:
 - Image uploading is done through a separate page using a basic servers-side script
 - Images are stored in the database as a base64 string
 - Image resizing is done through [WideImage](http://wideimage.sourceforge.net/) (you'll need to add this to the includes folder)
+
 
 ## Tutorial Requirements:
 
@@ -20,3 +21,6 @@ Full tutorial URL: https://codeadam.ca/learning/php-cms.html
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
 </a>
+
+## What it looks like
+![webdevharsh infinityfreeapp com_php-cms_](https://user-images.githubusercontent.com/64983530/230745650-55c98064-c274-4d58-9042-886fa9b49133.png)
