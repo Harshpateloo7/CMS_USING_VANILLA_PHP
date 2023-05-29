@@ -24,3 +24,6 @@ Full tutorial URL: https://codeadam.ca/learning/php-cms.html
 
 ## What it looks like
 ![webdevharsh infinityfreeapp com_php-cms_](https://user-images.githubusercontent.com/64983530/230745650-55c98064-c274-4d58-9042-886fa9b49133.png)
+## Admin Side
+
+![cms](https://github.com/Harshpateloo7/CMS_USING_VANILLA_PHP/assets/64983530/9662d823-5953-4ba1-8d0f-38477e48c43e)
